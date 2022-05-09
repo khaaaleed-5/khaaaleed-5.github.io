@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="give your feedback about platform">
+        <link rel="stylesheet" href="feed.css">
+        <title>Feedback</title>
+        
+    </head>
+    <body>
+        <script>
+        function validateForm() {
+            var x = document.forms["myForm"]["fname"].value;
+            if (x == "" || x == null) {
+              alert("message box must be filled");
+              return false;
+            }
+          }
+          const email = document.getElementById('email');
+          function check(){
+            const emailValue = email.value.trim()
+            if (!isEmail(emailValue)) {
+		setErrorFor(email, 'Not a valid email');
+	} else {
+		setSuccessFor(email);
+	}
+          }
+    </script>
+        <div>
+            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        </div>
+        <div class="hid">
+           
+        </div>
+        <div>
+            <form action="feedback.html"  method="post" name="myForm"onsubmit= "return validateForm()">
+                <input id="name" type="text" placeholder="Your Name" required>
+                <br>
+                <br>
+                <input id="email" type="email" placeholder="Your Email" required>
+               
+                <br>
+                <br>
+                <textarea id="message" name="fname" placeholder="Your message" ></textarea>
+                <input type="submit" class="sub" value="Send Message" >
+               
+
+            </form>
+            <span>
+                <img src="feed.jpg" class="img" alt="downloading photo">
+            </span>
+        </div>
+        <div class="icons" style="display: flex;justify-content: space-evenly;position:relative;top: 82px;" >
+            <span id="face">
+              <a href="https://www.facebook.com/Online-academy-115865724446272"target="_blank">
+                <ion-icon style="color: #f4f5f8;" name="logo-facebook"></ion-icon>
+              </a>
+            </span>
+            <span id="tw">
+                <a href="https://twitter.com/khaaaaleed_5?fbclid=IwAR3ghnUzTAN5Rkuk9RSi0-axC0v19j_9AkBTEe36yR4Qf4i6Ifei4aA4ZD8"target="_blank">
+                    <ion-icon style="color: #f4f5f8;" name="logo-twitter"></ion-icon>
+                </a>
+               </span>
+            <span id="insta" >
+                <a href="https://www.instagram.com/accounts/login/?next=/khaaaleed_5/"target="_blank">
+                    <ion-icon style="color: #f4f5f8;" name="logo-instagram"></ion-icon>
+                </a>
+            </span>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,85 @@
+body{
+    background-color: white;
+}
+.ph,.math,.eng,.ba{
+    text-decoration: none;
+    font-family:system-ui;
+    font-size: x-large;
+    color: #2b2a2a;
+   margin: 20px;
+   letter-spacing: 3px;
+   font-weight:400;
+   text-transform: uppercase;
+   transition: .8s;
+   font-size:20px;
+}
+.light{
+    color: #2b2a2a;
+    padding: 20px;
+    font-size: larger;
+}
+.sea{
+    position: relative;
+    left: 500px;
+    width: 400px;
+    height: 30px;
+    border-radius: 25px;
+}
+.ba{
+    position: relative;
+    left: 900px;
+}
+.ph:hover{
+    border: 0px solid #2b2a2a ;
+    border-radius: 20px;
+    background-color: #2b2a2a;
+    padding: 5px;
+    box-shadow: 8px 4px 8px 1px #0000009e;
+    color: white;
+}
+.math:hover{
+    border: 0px solid #2b2a2a ;
+    border-radius: 20px;
+    background-color: #2b2a2a;
+    padding: 5px;
+    box-shadow: 8px 4px 8px 1px #0000009e;
+    color: white;
+}
+.eng:hover{
+    border: 0px solid #2b2a2a ;
+    border-radius: 20px;
+    background-color: #2b2a2a;
+    padding: 5px;
+    box-shadow: 8px 4px 8px 1px #0000009e;
+    color: white;
+}
+.ba:hover{
+    border: 0px solid #2b2a2a ;
+    border-radius: 20px;
+    background-color: #2b2a2a;
+    padding: 5px;
+    text-decoration: rgba(0, 0, 0, 0.204) underline;
+    box-shadow: 8px 4px 8px 1px #0000009e;
+    color: white;
+}
+.pho{
+    width: 180px;
+    padding: 45px;
+    height: 180px;
+    border: white solid 2px;
+    border-radius: 150px;
+    cursor: pointer;
+    
+}
+.wo{
+    text-decoration: none;
+    font-family: system-ui;
+    color: #2b2a2a;
+   text-transform: uppercase;
+   position:relative;
+   right: 180px;
+   bottom: 15px;
+}
+.wo:hover{
+    text-decoration: underline;
+}

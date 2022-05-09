@@ -1,0 +1,118 @@
+body{
+    background-color: #2b2a2a;
+}
+.home,.courses,.profile,.logout,.about{
+   text-decoration: none;
+   font-family:system-ui;
+   font-size: x-large;
+   color: #f4f5f8;
+  margin: 20px;
+  letter-spacing: 3px;
+  font-weight:400;
+  text-transform: uppercase;
+  transition: .8s;
+  font-size:20px;
+
+}
+.light{
+    color: white;
+    padding: 20px;
+    font-size: larger;
+}
+.home,.courses,.profile,.about{
+    position: relative;
+    left:80px;
+}
+/*.about{
+    position: relative;
+    top: -45px;
+}*/
+
+.home:hover{
+    border: 0px solid #dad9d9 ;
+    border-radius: 20px;
+    background-color: #dad9d9;
+    padding: 5px;
+    box-shadow: 8px 4px 8px 1px #0000009e;
+    color: black;
+}
+.courses:hover{
+    border: 0px solid #dad9d9 ;
+    border-radius: 20px;
+    background-color: #dad9d9;
+    padding: 5px;
+    box-shadow: 8px 4px 8px 1px #0000009e;
+    color: black;
+}
+.profile:hover{
+    border: 0px solid #dad9d9 ;
+    border-radius: 20px;
+    background-color: #dad9d9;
+    padding: 5px;
+    box-shadow: 8px 4px 8px 1px #0000009e;
+    color: black;
+}
+.about:hover{
+    border: 0px solid #dad9d9 ;
+    border-radius: 20px;
+    background-color: #dad9d9;
+    padding: 5px;
+    box-shadow: 8px 4px 8px 1px #0000009e;
+    color: black;
+}
+.logout{
+    position: relative;
+    left: 805px;
+}
+.logout:hover{
+    border: 0px solid #dad9d9 ;
+    border-radius: 20px;
+    background-color: #dad9d9;
+    padding: 5px;
+    text-decoration: rgba(0, 0, 0, 0.204) underline;
+    box-shadow: 8px 4px 8px 1px #0000009e;
+    color: black;
+}
+.allsubjects,.be{
+    background-color: #dad9d9;
+    word-spacing: 5px;
+   /* display: inline-block;*/
+    width: 1300px;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 35px;
+    font-family: system-ui;
+    box-shadow: 8px 4px 8px 1px #0000009e;
+}
+
+div.about2{
+    background: #dad9d9;
+    width: 176px;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 5px;
+    margin: 20px;
+    font-family: system-ui;
+    text-transform: capitalize;
+    cursor: not-allowed;
+    box-shadow: 8px 4px 8px 1px #0000009e
+}
+.m,.ph,.e-l,.e{
+    font-weight: 900;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-family: system-ui;
+}
+.hello,.welcome{
+    color: #d9d8d8;
+    font-family: system-ui;
+    text-transform: capitalize;
+    font-size: 50px;
+    transform: translate(27px, 250px);
+    pointer-events:none;
+}
+.welcome{
+    transform: translate(-99px, 306px);
+    font-weight: 700;
+}

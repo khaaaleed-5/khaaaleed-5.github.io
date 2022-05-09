@@ -1,0 +1,136 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: #2b2a2a;
+    text-align: center;
+}
+
+header{
+    background-color:#f0f0f0;
+    width: 100%;
+    position:fixed;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 13px 95px;
+}
+.logo{
+    color: #2b2a2a;
+    text-decoration: none;
+    font-family:system-ui;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 2px;
+
+}
+
+.buttons{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+
+
+.log-btn{
+    color: #f9fafd;
+    background-color: #2b2a2a;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 60px;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-right: 40px;
+    transition: .2s;
+  
+}
+
+.log-btn:hover{
+     padding: 25px 65px;
+}
+
+
+.sign-btn{
+    color: #f9fafd;
+    background-color: #2b2a2a;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 50px;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-right: 40px; 
+    transition: .2s;
+  
+}
+
+.sign-btn:hover{
+     padding: 25px 55px; 
+}
+
+section{
+    padding: 100px;
+}
+
+.main{
+    margin: 150px;
+}
+
+.main h1 {
+    color:whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:60px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.main p{
+    color:rgb(99, 220, 137);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    padding: 30px;
+}
+
+button{
+    border: 1px solid rgb(204, 106, 137);
+    border-radius: 20px;
+    color: rgb(204, 106, 137);
+    background: none;
+    font-family: cursive;
+    margin: 10px ;
+    padding: 10px 20px;
+    font-size: 30px;
+    transition: .7s;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+.about,.contact{
+    color: #f0f0f0;
+    text-decoration: none;
+    font-size: x-large;
+    position: relative;
+    
+    bottom: 250px;
+    text-transform: capitalize;
+    font-family: system-ui;
+    margin: 20px;
+}
+.about:hover{
+    margin: 25px;
+    text-decoration: underline;
+}
+.contact:hover{
+    margin: 25px;
+    text-decoration: underline;
+}

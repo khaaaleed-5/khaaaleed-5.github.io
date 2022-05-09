@@ -1,0 +1,58 @@
+body{
+    background-color: #2b2a2a;
+    scroll-behavior:smooth;
+}
+.hid{
+    height: 100px;
+}
+#name{
+    padding: 10px;
+    width: 750px;
+    height: 8px;
+    position: relative;
+    border: none;
+    border-radius: 5px;
+}
+#email{
+    padding: 10px;
+    width: 750px;
+    height: 5px;
+    position: absolute;
+    border: none;
+    border-radius: 5px;
+}
+#message{
+    padding: 10px;
+    width: 750px;
+    height: 200px;
+    position: absolute;
+    border: none;
+    border-radius: 5px;
+}
+.img{
+    position: relative;
+    left: 900px;
+    bottom: 180px;
+    border-radius: 50px;
+}
+.sub{
+    background-color: #51b1fb;
+    color: white;
+    height: 60px;
+    padding: 20px;
+    border: none;
+    display: flex;
+    margin-left: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+    right: 1080px;
+    top: 230px;
+    font-family: system-ui;
+}
+.sub:hover{
+    background-color: black;
+}

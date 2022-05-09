@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(42, 41, 41);
+    text-align: center;
+    padding: 45px;
+    position: relative;
+    top: 200px;
+    color: white;
+    word-spacing: 2px;
+    font-family: system-ui;
+    text-transform: capitalize;
+}
+.face,.insta,.twi{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+}
+.face:hover{
+    text-decoration: underline;
+    color: rgba(21, 21, 250, 0.789);
+}
+.insta:hover{
+    text-decoration: underline;
+    color: rgba(239, 149, 134, 0.844);
+}
+.twi:hover{
+    text-decoration: underline;
+    color: rgba(34, 200, 200, 0.899);
+}
